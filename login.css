@@ -1,0 +1,11 @@
+.M {
+  border-radius: 10%;
+  color: white;
+  background-color: blue;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+ul {
+  list-style-type: none;
+}
