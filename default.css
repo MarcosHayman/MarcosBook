@@ -1,0 +1,20 @@
+body {
+  width: 100%;
+  margin: auto;
+}
+h1 {
+  margin-left: 8px;
+  font-size: large;
+}
+.M {
+  border-radius: 10%;
+  color: white;
+  background-color: blue;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+main {
+  height: 95vh;
+  width: 100%;
+  background-color: lightcyan;
+}

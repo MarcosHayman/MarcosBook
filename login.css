@@ -1,11 +1,15 @@
-.M {
-  border-radius: 10%;
-  color: white;
-  background-color: blue;
-  padding-left: 4px;
-  padding-right: 4px;
+.Main {
+  display: flex;
+  flex: 1 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+div > h2 {
+  color: blue;
+  font-size: 3em;
 }
 
-ul {
-  list-style-type: none;
+li p {
+  margin: auto;
 }

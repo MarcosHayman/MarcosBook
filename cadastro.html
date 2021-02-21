@@ -5,6 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcosbook</title>
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="cadastro.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1><span class="M">M</span>arcosbook</h1>
+    </header>
+    <main>
+      <form action="/my-handling-form-page" method="POST">
+        <ul>
+          <li class="name">
+            <label for="name"></label>
+            <input type="text" name="user_name" id="name" placeholder="Nome" required />
+            <label for="surname"></label>
+            <input type="text" name="user_surName" id="susrname" placeholder="Sobrenome" required />
+          </li>
+          <li>
+            <label for="mail"></label>
+            <input type="email" id="mail" name="user_email" placeholder="Email" required />
+          </li>
+          <li>
+            <label for="password"></label>
+            <input
+              type="password"
+              id="password"
+              name="user_password"
+              placeholder="Senha"
+              required
+            />
+          </li>
+          <li>
+            <a href="perfil.html">
+              <button>Cadastrar</button>
+            </a>
+          </li>
+        </ul>
+      </form>
+    </main>
+  </body>
 </html>

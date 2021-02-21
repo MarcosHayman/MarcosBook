@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcosbook</title>
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="form.css" />
     <link rel="stylesheet" href="login.css" />
   </head>
   <body>
     <header>
-      <h1><span class="M">m</span>arcosBook</h1>
+      <h1><span class="M">M</span>arcosbook</h1>
     </header>
-    <main>
+    <main class="Main">
+      <div class="bem-vindo">
+        <h2>Marcosbook</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.&<br />
+          Nam corporis inventore, quo placeat nisi illum!
+        </p>
+      </div>
       <form action="/my-handling-form-page" method="POST">
         <ul>
           <li>
@@ -19,13 +28,22 @@
             <input type="email" id="mail" name="user_email" placeholder="Email" required />
           </li>
           <li>
-            <label for="senha"></label>
-            <input type="password" id="senha" name="user_password" placeholder="Senha" required />
+            <label for="password"></label>
+            <input
+              type="password"
+              id="password"
+              name="user_password"
+              placeholder="Senha"
+              required
+            />
           </li>
           <li>
             <a href="perfil.html">
               <button>Entrar</button>
             </a>
+          </li>
+          <li>
+            <a href="EsqueceuSenha.html">Esqueceu sua senha?</a>
           </li>
           <li>
             <p>ou</p>

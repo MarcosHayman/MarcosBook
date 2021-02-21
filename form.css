@@ -1,0 +1,18 @@
+form {
+  background-color: white;
+  border-radius: 10%;
+  border: 2px solid rgba(100, 100, 100, 0.2);
+  display: flex;
+}
+ul {
+  padding: 15px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex: 1 50px;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  margin: 5px;
+}

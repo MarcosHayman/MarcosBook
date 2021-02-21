@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: fit-content;
+  align-self: center;
+  display: flex;
+}
+input:not(input:only-of-type) {
+  width: 80px;
+}
