@@ -7,6 +7,16 @@ form {
   align-self: center;
   display: flex;
 }
+fieldset {
+  border-style: none;
+}
+legend {
+  font-size: smaller;
+}
 input:not(input:only-of-type) {
   width: 80px;
+}
+.genero {
+  flex-flow: row nowrap;
+  align-items: flex-start;
 }

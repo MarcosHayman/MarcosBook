@@ -37,6 +37,36 @@
             />
           </li>
           <li>
+            <fieldset>
+              <legend>Data de Nascimento:</legend>
+              <label for="birthday"></label>
+              <input type="date" id="birthday" required />
+            </fieldset>
+          </li>
+          <fieldset>
+            <legend>Gênero</legend>
+            <ul class="genero">
+              <li>
+                <label for="female">
+                  <input type="radio" id="female" name="genero" required />
+                  Feminino
+                </label>
+              </li>
+              <li>
+                <label for="male">
+                  <input type="radio" id="male" name="genero" required />
+                  Masculino
+                </label>
+              </li>
+              <li>
+                <label for="custom">
+                  <input type="radio" name="genero" id="custom" required />
+                  Personalizado
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <li>
             <a href="perfil.html">
               <button>Cadastrar</button>
             </a>

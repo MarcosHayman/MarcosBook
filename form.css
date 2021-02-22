@@ -16,3 +16,7 @@ ul {
 li {
   margin: 5px;
 }
+input {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}

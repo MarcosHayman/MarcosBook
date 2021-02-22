@@ -1,4 +1,4 @@
-.Main {
+main {
   display: flex;
   flex: 1 50px;
   flex-wrap: wrap;
