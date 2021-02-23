@@ -2,7 +2,13 @@ body {
   width: 100%;
   margin: auto;
 }
+header {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+}
 h1 {
+  padding-block: 15px;
   margin-left: 8px;
   font-size: large;
 }
